@@ -14,6 +14,14 @@ public class Methods {
     static int product(int x ,int y, int z){
         return x*y*z;
     }
+    //recusion
+    static int factorial(int n){
+        if(n==0||n==1){
+            return 1;
+        }else{
+            return n*factorial(n-1);
+        }
+    }
     public static void main(String[] args) {
         int result=sum(2,6);
         System.out.println(result);
@@ -21,5 +29,6 @@ public class Methods {
         int prod=obj.product(3,5);
         System.out.println(prod);
         System.out.println(product(2,3,5));
+        System.out.println(factorial(10));
     }
 }
