@@ -21,8 +21,7 @@ class Child1 extends Child{
 }
 public class Abstract {
     public static void main(String[] args) {
-        Child ch=new Child1();
+        Child1 ch=new Child1();
         ch.greet();
-
     }
 }
