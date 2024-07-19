@@ -1,5 +1,6 @@
 package Mastering_java;
 abstract class Parent{
+    int a=45;
     public Parent(){
         System.out.println("Im the parent");
     }
@@ -23,5 +24,7 @@ public class Abstract {
     public static void main(String[] args) {
         Child1 ch=new Child1();
         ch.greet();
+        ch.a=454;
+        System.out.println(ch.a);
     }
 }
