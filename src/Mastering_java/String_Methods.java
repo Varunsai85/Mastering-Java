@@ -9,7 +9,7 @@ public class String_Methods {
 		System.out.println(name.toLowerCase());
 		System.out.println(name.toUpperCase());
 		String name2="   Varun Sai Nadiminti   ";
-		String name3="Varun Sai Nadiminti";
+		String name3="Varun Sai nadiminti";
 		System.out.println(name2.trim());
 		System.out.println(name.substring(4));
 		System.out.println(name.substring(0,4));
